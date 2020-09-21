@@ -11,8 +11,8 @@ num = sys.stdin.readline().split('-') #마이너스 기준으로 자름
 for i in range(len(num)):
     arr = list(num[i].split('+')) #플러스로 나눈 수를 모두 합산
     cnt = 0
-    for j in range(len(arr)):
-        cnt += int(arr[j]) #합산하는 코드
+    for j in arr:
+        cnt += int(j) #합산하는 코드
         if i == 0:
             first = cnt
     result -= cnt
