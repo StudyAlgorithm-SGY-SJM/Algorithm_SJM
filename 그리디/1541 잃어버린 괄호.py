@@ -6,7 +6,7 @@
 #-가 나오기 전에 최대한 덧셈을 뭉친다면 최소이지 않을까?
 import sys
 result = 0
-first = 0 #맨 앞 음수 덩어리 저장할 변수
+first = 0 #맨 앞 수를 저장할 변수
 num = sys.stdin.readline().split('-') #마이너스 기준으로 자름
 for i in range(len(num)):
     arr = list(num[i].split('+')) #플러스로 나눈 수를 모두 합산
