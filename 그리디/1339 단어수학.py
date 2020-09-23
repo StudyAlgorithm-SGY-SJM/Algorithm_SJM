@@ -1,4 +1,5 @@
 '''
+실패한 코드
 import sys
 alpha=[-1]*26 #알파벳 개수 26개
 n = int(sys.stdin.readline())
